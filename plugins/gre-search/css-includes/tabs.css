@@ -1,0 +1,51 @@
+/* Contains the entire tabbed section */
+.gre-search-tabbed {
+	}
+
+/* List of tabs */.gre-search-tabbed ul.gre-search-tabs {
+	float: left;
+	display: inline;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+.gre-search-tabbed ul.gre-search-tabs li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	}
+.gre-search-tabbed ul.gre-search-tabs li a {
+	overflow: hidden;
+	display: block;
+	margin: 0 2px 0 0;
+	padding: 10px 12px;
+	cursor:pointer;
+	cursor:hand;
+	}
+.gre-search-tabbed ul.gre-search-tabs li a:hover {
+	}
+
+/* The current selected tab */
+.gre-search-tabbed ul.gre-search-tabs li a.tab-current {
+	}
+
+/* The content shown when a tab is selected */
+.gre-search-tabbed div {
+	/*float: left;*/
+	display: block;
+	width: 100%;
+	}
+
+/* Set the CSS to make sure the other tabs' content isn't shown other than the first */
+.gre-search-tabbed div.gre-search-t2, .gre-search-tabbed div.gre-search-t3, .gre-search-tabbed div.gre-search-t4 {
+	display: none;
+	}
+
+/* Content for inside your tabs' divs */
+.gre-search-tabbed div ul {
+	}
+.gre-search-tabbed div p {
+	}
+.gre-search-tabbed div div {
+	}

@@ -1,0 +1,7 @@
+ #frm-gre-search-t1, #frm-gre-search-t2, #frm-gre-search-t3, form{
+	text-align:left;
+}
+
+#gre-search-tabbed ul li:before{
+	content:'';
+}
