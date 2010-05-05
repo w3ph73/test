@@ -1,5 +1,5 @@
 <?php
 
-echo "Great Real Estate Search";
+echo "Great Real Estate Search!";
 
 ?>
